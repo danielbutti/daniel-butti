@@ -165,7 +165,7 @@ body {
   background-color: #975252;
   width: 10%;
   border-radius: 50px;
-  font-family: montesart, sans-serif;
+  font-family: Montserratt, sans-serif;
   font-weight: 700; }
 
 .grid-container {
@@ -236,7 +236,7 @@ body {
   padding: 10px;
   display: flex;
   justify-content: center;
-  font-family: montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold; }
 
 .familia {
@@ -310,7 +310,7 @@ body {
     background-color: #975252;
     width: 100px;
     border-radius: 5px;
-    font-family: montesart, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 700;
     opacity: 1; }
   .car-1 {
@@ -319,7 +319,8 @@ body {
     display: flex;
     position: relative;
     font-family: montserrat, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    display: contents; }
   .menu li {
     padding: 0; }
     .menu li a {
@@ -338,7 +339,21 @@ body {
     border-radius: 50px;
     transform: translate(20px, 20px);
     line-height: 40px;
-    margin: 20px; }
+    margin: 20px;
+    display: contents;
+    flex-direction: column; }
+  .map {
+    overflow: hidden;
+    position: relative;
+    height: 0; }
+  .map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: contents; }
+  /* End: Google Maps Responsive */
   .open-menu,
   .close-menu {
     display: block;
